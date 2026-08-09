@@ -1,5 +1,5 @@
 
-CREATE SCHEMA IF NOT EXIXSTS bronze;
+CREATE SCHEMA IF NOT EXISTS bronze;
 
 create table bronze.sales ( order_id int 
 					 ,order_date date 
