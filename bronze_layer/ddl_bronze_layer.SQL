@@ -1,3 +1,6 @@
+
+CREATE SCJEMA IF NOT EXIXSTS bronze;
+
 create table bronze.sales ( order_id int 
 					 ,order_date date 
                     ,customer_id varchar(10)
